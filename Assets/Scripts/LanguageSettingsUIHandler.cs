@@ -30,6 +30,10 @@ public class LanguageSettingsUIHandler : MonoBehaviour
     {
         languagePopUpWindow.SetActive(true);
     }
+    public void CloseLanguagePopUpWindow()
+    {
+        languagePopUpWindow.SetActive(false);
+    }
 
     private void ChangeLanguage(string language)
     {
