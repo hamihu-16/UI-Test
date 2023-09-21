@@ -16,7 +16,6 @@ public class UIInfoHeaderHandler : MonoBehaviour
     {
         for (int i = 0; i < unselectedButtonList.Count; i++)
         {
-            //Debug.Log(unselectedButtonList[i].name);
             int index = i;
             Button button = unselectedButtonList[i].GetComponent<Button>();
             button.onClick.AddListener(() => OnSidebarButtonClicked(index));
